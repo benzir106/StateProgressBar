@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Profile"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_people"
+        >
+        <menu>
+
+            <item
+                android:title="Friend"
+                android:icon="@drawable/ic_people"/>
+            <item
+                android:title="Follower"
+                android:icon="@drawable/ic_person_add_"/>
+
+
+        </menu>
+
+
+
+    </item>
+
+
+
+
+    <item
+        android:id="@+id/shareId"
+        android:title="Share"
+        android:icon="@drawable/ic_share"
+        android:iconTint="@color/White"
+        />
+
+    <item
+        android:id="@+id/settingId"
+        android:title="Setting"
+        android:icon="@drawable/ic_setting"/>
+
+    <item
+        android:id="@+id/exit"
+        android:title="Exit"
+        android:icon="@drawable/ic_exit"/>
+
+
+
+</menu>
